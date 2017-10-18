@@ -1,0 +1,37 @@
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  /*outline: 1px solid red; */
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #2e2e2a;
+  line-height: 40px;
+  overflow: auto;
+
+/*  outline: 1px solid green; */
+}
+
+li{
+/*  outline: 1px solid red;*/
+  width: 100px;
+/*  display: inline-block;*/
+float: left;
+  text-align: center;
+}
+
+a{        /*a tiene varios estados: Link, Visited, Hover, Active */
+  text-decoration: none;
+  /*outline: 1px solid orange;*/
+  color: #fff;
+  display: block;
+}
+a:hover{
+  background: #f9a91a;
+  color: #000;
+}
