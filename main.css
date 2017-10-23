@@ -21,7 +21,7 @@ li{
 /*  outline: 1px solid red;*/
   width: 100px;
 /*  display: inline-block;*/
-float: left;
+  float: left;
   text-align: center;
 }
 
